@@ -7,19 +7,19 @@ This deployment here allows querying this subgraph in order to have information 
 According to the following schema, one has access to the ID, the Block number, the addresses from and To and the amount of tokens.
 
 Exchange @entity {
-  # tx hash
+  ### tx hash
   id: ID!
 
-  # Block number
+  ### Block number
   block: BigInt!
 
-  # Sender
+  ### Sender
   from: String!
 
-  # Receiver
+  ### Receiver
   to: String!
 
-  # Amount of Tokens
+  ### Amount of Tokens
   amount: BigInt!
 }
 
